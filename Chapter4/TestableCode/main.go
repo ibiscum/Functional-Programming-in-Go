@@ -3,7 +3,7 @@ package main
 import (
 	"math/rand"
 
-	"github.com/PacktPublishing/Chapter4/TestableCode/player"
+	"github.com/ibiscum/Functional-Programming-in-Go/Chapter4/TestableCode/player"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/PacktPublishing/Chapter10/pkg"
+	"github.com/ibiscum/Functional-Programming-in-Go/Chapter10/pkg"
 )
 
 type ResponseFunc func(*http.Response)

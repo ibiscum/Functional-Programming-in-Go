@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/PacktPublishing/Chapter8/LazyEvaluation/pkg"
+	"github.com/ibiscum/Functional-Programming-in-Go/Chapter8/LazyEvaluation/pkg"
 )
 
 func main() {

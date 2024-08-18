@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/PacktPublishing/Chapter9/pkg/fp"
-	"github.com/PacktPublishing/Chapter9/pkg/oop"
+	"github.com/ibiscum/Functional-Programming-in-Go/Chapter9/pkg/fp"
+	"github.com/ibiscum/Functional-Programming-in-Go/Chapter9/pkg/oop"
 )
 
 /*

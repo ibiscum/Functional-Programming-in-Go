@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/PacktPublishing/Chapter8/FunctionChaining/pkg"
+	"github.com/ibiscum/Functional-Programming-in-Go/Chapter8/FunctionChaining/pkg"
 )
 
 /*

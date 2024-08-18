@@ -1,6 +1,6 @@
 package main
 
-import "github.com/PacktPublishing/Chapter5/Monads/pkg"
+import "github.com/ibiscum/Functional-Programming-in-Go/Chapter5/Monads/pkg"
 
 func main() {
 	pkg.Just(1)

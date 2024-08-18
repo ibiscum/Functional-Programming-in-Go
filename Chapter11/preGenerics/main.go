@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/PacktPublishing/Chapter11/pregenerics/pkg"
 	"github.com/elliotchance/pie/pie"
+	"github.com/ibiscum/Functional-Programming-in-Go/Chapter11/preGenerics/pkg"
 )
 
 func main() {
@@ -17,21 +17,21 @@ func main() {
 	fmt.Printf("result: %v\n", out)
 
 	MyDogs := []pkg.Dog{
-		pkg.Dog{
-			"Bucky",
-			1,
+		{
+			Name: "Bucky",
+			Age:  1,
 		},
-		pkg.Dog{
-			"Keeno",
-			15,
+		{
+			Name: "Keeno",
+			Age:  15,
 		},
-		pkg.Dog{
-			"Tala",
-			16,
+		{
+			Name: "Tala",
+			Age:  16,
 		},
-		pkg.Dog{
-			"Amigo",
-			7,
+		{
+			Name: "Amigo",
+			Age:  7,
 		},
 	}
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/PacktPublishing/Chapter6/pkg"
+	"github.com/ibiscum/Functional-Programming-in-Go/Chapter6/pkg"
 )
 
 type (
@@ -36,8 +36,8 @@ const (
 
 func main() {
 	dogs := []Dog{
-		Dog{"Bucky", Havanese, Male},
-		Dog{"Tipsy", Poodle, Female},
+		{"Bucky", Havanese, Male},
+		{"Tipsy", Poodle, Female},
 	}
 	result := pkg.Filter(dogs, func(d Dog) bool {
 		return d.Breed == Havanese
@@ -81,8 +81,8 @@ func multiplyMapDemo() {
 
 func dogMapDemo() {
 	dogs := []Dog{
-		Dog{"Bucky", Havanese, Male},
-		Dog{"Tipsy", Poodle, Female},
+		{"Bucky", Havanese, Male},
+		{"Tipsy", Poodle, Female},
 	}
 	result := pkg.Map(dogs, func(d Dog) Dog {
 		if d.Gender == Male {

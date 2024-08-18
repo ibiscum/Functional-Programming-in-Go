@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/PacktPublishing/Chapter4/Examples/HotdogShop/PureHotdogShop/pkg"
+	"github.com/ibiscum/Functional-Programming-in-Go/Chapter4/PureHotdogShop/pkg"
 )
 
 func main() {
