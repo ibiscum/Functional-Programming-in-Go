@@ -28,7 +28,7 @@ func main() {
 	for i := 0; i < 10; i++ {
 		go isEven(i, callback)
 	}
-	_ := <-make(chan int)
+	//_ = <-make(chan int)
 }
 
 func isEven(i int, callback func(int, bool)) {

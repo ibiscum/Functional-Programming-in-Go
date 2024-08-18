@@ -64,38 +64,44 @@ func DogSpawner(breed Breed, gender Gender) NameToDogFunc {
 
 func main() {
 	bucky := DogSpawnerCurry(Havanese)(Male)("Bucky")
+	println(bucky.Breed)
 
 	havaneseSpawner := DogSpawnerCurry(Havanese)
 	rocky := havaneseSpawner(Male)("Rocky")
+	println(rocky.Breed)
 
 	femaleHavanese := havaneseSpawner(Female)
 	lola := femaleHavanese("Lola")
+	println(lola.Breed)
+
 	dotty := femaleHavanese("Dotty")
+	println(dotty.Breed)
 
-	rocky := maleHavaneseSpawner("rocky")
+	rocky = maleHavaneseSpawner("rocky")
 	tipsy := femalePoodleSpawner("tipsy")
+	println(tipsy.Breed)
 
 }
 
-func createDogsWithoutPartialApplication() {
-	bucky := Dog{
-		Name:   "Bucky",
-		Breed:  Havanese,
-		Gender: Male,
-	}
+// func createDogsWithoutPartialApplication() {
+// 	bucky := Dog{
+// 		Name:   "Bucky",
+// 		Breed:  Havanese,
+// 		Gender: Male,
+// 	}
 
-	rocky := Dog{
-		Name:   "Rocky",
-		Breed:  Havanese,
-		Gender: Male,
-	}
+// 	rocky := Dog{
+// 		Name:   "Rocky",
+// 		Breed:  Havanese,
+// 		Gender: Male,
+// 	}
 
-	tipsy := Dog{
-		Name:   "Tipsy",
-		Breed:  Poodle,
-		Gender: Female,
-	}
-	_ = bucky
-	_ = rocky
-	_ = tipsy
-}
+// 	tipsy := Dog{
+// 		Name:   "Tipsy",
+// 		Breed:  Poodle,
+// 		Gender: Female,
+// 	}
+// 	_ = bucky
+// 	_ = rocky
+// 	_ = tipsy
+// }
