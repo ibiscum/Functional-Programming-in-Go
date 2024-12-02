@@ -2,7 +2,7 @@ module github.com/ibiscum/Functional-Programming-in-Go
 
 go 1.22.3
 
-require github.com/elliotchance/pie/v2 v2.9.0
+require github.com/elliotchance/pie/v2 v2.9.1
 
 require golang.org/x/text v0.16.0 // indirect
 
