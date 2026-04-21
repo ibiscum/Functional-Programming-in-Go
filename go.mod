@@ -4,7 +4,7 @@ go 1.22.3
 
 require github.com/elliotchance/pie/v2 v2.9.1
 
-require golang.org/x/text v0.21.0 // indirect
+require golang.org/x/text v0.22.0 // indirect
 
 require (
 	github.com/elliotchance/pie v1.39.0
